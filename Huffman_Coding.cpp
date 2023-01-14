@@ -100,7 +100,7 @@ void makingHuffManCode(string input){
     //For this we will use a map and for each character, store a string of 0s and 1s
     map<char, string> HuffManCodes;
     encodeHuffMan(root,"",HuffManCodes);
-    //The encodeHuffMan function has allocated Huffman cades for each character in the input string
+    //The encodeHuffMan function has allocated Huffman codes for each character in the input string
 
     //Printing huffman codes of each character   (commenting out for now)
     // for(auto i : HuffManCodes){
